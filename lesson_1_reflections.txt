@@ -1,0 +1,16 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	It compared side by side the lines of code which were changed.  Thus it was not necessary to spend hours looking through hundreds of lines. Instead we only needed to look at ~20 lines.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	You will be able to readily see any mistakes that you have had.  As well, having older files means that you will have a place to go back to in case you make a catastrophic mistake.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	pros: new commits will be logically and you can easily understand changes, you are less likely to have way to many versions which could become confusing
+	cons:  you might miss committing something you should have.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Especially in coding, often time you have multiple files working together, so it makes sense to track the changed in all files related to each other.  While as in Docs, the files often are not related so changing one will most likely not change other files.
+How can you use the commands git log and git diff to view the history of files?
+	git log will provide you with the ids of each of the commits that you have made, which will allow you to then easly compare different commits to fix any bugs or to see the changes you have made. 
+How might using version control make you more confident to make changes that could break something?
+	Version control would allow me to be more confident in making changes because, since there are saved previous versions, I can allows have a place to return to if I make a catastrophic error.
+Now that you have your workspace set up, what do you want to try using Git for?
+	I am going to try to use git to more convienently save versions of the various projects that I am working on in my python course
+
